@@ -1,0 +1,116 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+
+@font-face {
+  font-family: Avenir;
+  src: url(./css/fonts/AvenirLTStdMedium.woff);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+	font-family: Avenir !important;
+}
+
+#afc_sidebar_5998 {
+   
+    top: 50% !important;
+	width: 250px !important;
+	z-index: 999998 !important;
+}
+
+.site-name{
+    font-size:34px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 250px;
+    line-height: 18px;
+    padding-top: 12px;
+    font-weight: bolder;
+}
+.site-name-line-2{
+    font-size:16px;
+}
+
+@media only screen and (max-width:480px){
+    .vc_column-inner { padding: 0 10px; }
+    .site-name {
+        font-size: 24px;
+        width: 210px;
+        line-height: 14px;
+    }
+    .site-name-line-2 {
+        font-size: 14px;
+    }
+	div.smallb {
+		margin: 5px!important;
+	}
+}
+
+@media only screen and (max-width: 320px){
+    .site-name {
+        font-size: 18px;
+        width: 140px;
+        line-height: 14px;
+    }
+    .site-name-line-2 {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+  
+#booknowtestimonial
+{
+-webkit-transform: translateY(-10%) translateX(-17%) !important;
+transform: translateY(-10%) translateX(-17%) !important;
+}
+	
+
+}
+
+@media only screen and (min-width: 1000px) {
+#home-spacer
+	{
+		display:none !important;
+	}
+	
+
+#game-margin
+	{
+		display:none !important;
+	}
+}
+@media only screen and (min-width: 960px) {
+.sp2button{display:none !important;}
+}
+@media only screen and (max-width:375px){
+    .vc_column-inner { padding: 0 10px; }
+}
+
+
+.sp2button {
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.sp2button .buttons {
+	border: #3452ff solid 2px;
+    padding: 15px 15px 15px;
+    border-radius: 10px;
+    font-weight: 600; }
+
+.sp2button .buttons a {	color: #000 !important;}
+.sp2button .buttons a:hover {color:#3452ff !important;}
+
+
+
+
